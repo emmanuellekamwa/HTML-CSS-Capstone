@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    list-style-type: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* body {
+    background-color: #d3d3d3;
+} */
+
+.first-header {
+    background-color: #272a31;
+    height: 30px;
+}
+
+.list {
+    padding-right: 160px;
+}
+
+.items {
+    color: #ffff;
+}
+
+.second-header {
+    background-color: #fff;
+    height: 65px;
+}
+
+.microverse-logo {
+    padding-left: 160px;
+}
+
+.links {
+    padding-right: 205px;
+}
+
+.link-list1 a {
+    text-decoration: none;
+    color: #ec5242;
+}
+
+.link-list a {
+    text-decoration: none;
+    color: #272a31;
+}
+
+.link-list2 a {
+    text-decoration: none;
+    color: #ec5242;
+    border: 4px solid #ec5242;
+}
+
+.background-img {
+    background-image: url("images/code.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.micronauts,
+.heading {
+    color: #ec5242;
+}
+
+.micronauts {
+    padding-top: 100px;
+    padding-left: 150px;
+}
+
+.heading {
+    padding-left: 150px;
+}
+
+.small-text {
+    padding-left: 170px;
+    color: #272a31;
+    border: 2px solid white;
+    width: 50%;
+}
