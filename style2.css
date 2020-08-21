@@ -49,7 +49,12 @@
     height: 35rem;
 }
 
-.heading {
+.la-bars {
+    color: #272a31;
+}
+
+.heading,
+.micronauts {
     color: #ec5242;
 }
 
@@ -92,6 +97,11 @@
     height: 10rem;
 }
 
+.top-footer {
+    background-color: #272a31;
+    height: 295px;
+}
+
 .bottom-footer {
     background-color: #272a31;
     margin-top: 90px;
@@ -100,4 +110,14 @@
 .copyright {
     padding-left: 100px;
     color: #fff;
+}
+
+@media only screen and (max-width: 767px) {
+    .bottom-footer {
+        background-color: #fff;
+    }
+
+    .copyright {
+        color: #272a31;
+    }
 }
