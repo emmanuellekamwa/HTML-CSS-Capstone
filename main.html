@@ -15,12 +15,18 @@
             integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
             crossorigin="anonymous"
         />
+        <link
+            rel="stylesheet"
+            href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+        />
         <link rel="stylesheet" href="style1.css" />
         <title>Main Page</title>
     </head>
     <body>
-        <header class="first-header container-fluid">
-            <nav class="first-nav d-flex flex-row justify-content-end">
+        <header
+            class="first-header container-fluid d-none d-md-flex justify-content-end"
+        >
+            <nav class="first-nav d-md-flex flex-row justify-content-end">
                 <ul class="list d-flex flex-row">
                     <li class="items">
                         <i class="fab fa-facebook-f px-2"></i>
@@ -34,26 +40,27 @@
                 </ul>
             </nav>
         </header>
-        <header class="second-header container-fluid">
-            <nav class="second-nav d-flex flex-row justify-content-between">
-                <a href="#">
+        <header class="second-header d-none d-md-flex justify-content-around">
+            <nav class="second-nav d-md-flex flex-row justify-content-around">
+                <a href="#" class="d-flex justify-content-center">
                     <img
                         src="images/microverse.png"
                         alt="microverse"
                         class="microverse-logo pt-3"
-                        width="330"
+                        width="200"
+                        height="60"
                     />
                 </a>
-                <ul class="links d-flex flex-row justify-content-end pt-4">
-                    <li class="link-list1 px-5">
+                <ul class="links d-flex flex-row pt-4">
+                    <li class="link-list1 px-4">
                         <a href="about.html">About</a>
                     </li>
-                    <li class="link-list px-5"><a href="#">Curriculum</a></li>
-                    <li class="link-list px-5"><a href="#">Join</a></li>
-                    <li class="link-list px-5">
+                    <li class="link-list px-4"><a href="#">Curriculum</a></li>
+                    <li class="link-list px-4"><a href="#">Join</a></li>
+                    <li class="link-list px-4">
                         <a href="tickets.html">Tickets</a>
                     </li>
-                    <li class="link-list2 px-4">
+                    <li class="link-list2">
                         <a href="#" class="p-2">Apply Now</a>
                     </li>
                 </ul>
@@ -62,9 +69,10 @@
         <main class="container-fluid">
             <section>
                 <div class="background-img">
-                    <h2 class="micronauts">"Hello! Micronauts"</h2>
+                    <i class="las la-bars la-4x pt-3 pl-5 d-md-none"></i>
+                    <h2 class="micronauts pt-3">"Hello! Micronauts"</h2>
                     <h1 class="heading">
-                        MICROVERSE, ACCELLERATE <br />YOUR GLOBAL CARREER
+                        MICROVERSE, ACCELLERATE <br />YOUR GLOBAL <br />CARREER
                     </h1>
                     <p class="small-text">
                         Become a remote software developer, no matter where
@@ -74,6 +82,275 @@
                     </p>
                 </div>
             </section>
+            <section>
+                <div class="second-section">
+                    <h4 class="text-light text-center pt-5">Main Program</h4>
+                    <div class="red-border m-auto"></div>
+                    <div class="row d-flex justify-content-center mt-4">
+                        <div
+                            class="col-12 col-md-2 flex-md-column program px-2 py-4 mr-2 mb-2 mb-md-0"
+                        >
+                            <h2
+                                class="text-center align-self-center title flex-row d-flex"
+                            >
+                                Lecture
+                            </h2>
+                            <p class="text-center align-self-center text-light">
+                                Listen to the speakers from various countries
+                                about the messages of sharing and opening.
+                            </p>
+                        </div>
+                        <div
+                            class="col-12 col-md-2 flex-column program px-2 py-4 mr-2 mb-2"
+                        >
+                            <h2 class="text-center align-self-center title">
+                                CC Exhibition
+                            </h2>
+                            <p class="text-center align-self-center text-light">
+                                Appreciate various creations applyinc CC licence
+                                of artists, organised from Art Center Nabi.
+                            </p>
+                        </div>
+                        <div
+                            class="col-12 col-md-2 flex-column program px-2 py-4 mr-2 mb-2"
+                        >
+                            <h2 class="text-center align-self-center title">
+                                Forum
+                            </h2>
+                            <p class="text-center align-self-center text-light">
+                                Have the time to share your thoughts and
+                                opinions with experts for each topic.
+                            </p>
+                        </div>
+                        <div
+                            class="col-12 col-md-2 flex-column program px-2 py-4 mr-2 mb-2"
+                        >
+                            <h2 class="text-center align-self-center title">
+                                Workshop
+                            </h2>
+                            <p class="text-center align-self-center text-light">
+                                Try creating your own work using open source
+                                licence rather than just watching at it.
+                            </p>
+                        </div>
+                        <div
+                            class="col-12 col-md-2 flex-column program px-2 py-4 mr-2 mb-2"
+                        >
+                            <h2 class="text-center align-self-center title">
+                                CC Ignite
+                            </h2>
+                            <p class="text-center align-self-center text-light">
+                                Get opportunities to network with CC affliliates
+                                around the world, also after the summit.
+                            </p>
+                        </div>
+                    </div>
+                    <p class="underline-text text-light text-center pt-5">
+                        SEE THE WHOLE PROGRAM
+                    </p>
+                </div>
+            </section>
+            <section class="grid">
+                <h4 class="text-center pt-5 feature">
+                    Featured Speakers
+                </h4>
+                <div class="red-border m-auto"></div>
+                <div class="third-section row justify-content-center px-5">
+                    <div class="col-6 pt-5">
+                        <div class="speaker d-flex flex-row mb-5">
+                            <img
+                                src="images/ariel.png"
+                                alt="ariel"
+                                class="full-width full-height"
+                                width="80"
+                            />
+                            <div class="details flex-column pl-5">
+                                <h4 class="name">Ariel Camus</h4>
+                                <p class="post">Founder/CEO of Microverse</p>
+                                <div class="grey-border"></div>
+                                <p class="description">
+                                    Ariel has lived and worked in 7 different
+                                    countries including Spain, Argentina, the
+                                    USA, and Vietnam, and has been coding since
+                                    he was 12. He is the founder of the
+                                    Microverse community.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="speaker d-flex flex-row mb-5">
+                            <img
+                                src="images/gaby.png"
+                                alt="gaby"
+                                class="full-width full-height"
+                                width="80"
+                            />
+                            <div class="details flex-column pl-5">
+                                <h4 class="name">Gaby Suarez</h4>
+                                <p class="post">Admissions at Microverse</p>
+                                <div class="grey-border"></div>
+                                <p class="description">
+                                    Gaby is a native Salvadoran,
+                                    Spanglish-speaking, dog (and sushi) lover.
+                                    Her background is in managerial consulting
+                                    for large tech companies but her
+                                    professional passion lies in helping
+                                    companies.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="speaker d-flex flex-row mb-5">
+                            <img
+                                src="images/lydia.png"
+                                alt="lydia"
+                                class="full-width full-height"
+                                width="80"
+                            />
+                            <div class="details flex-column pl-5">
+                                <h4 class="name">Lydia Freeman</h4>
+                                <p class="post">
+                                    Student Success at Microverse
+                                </p>
+                                <div class="grey-border"></div>
+                                <p class="description">
+                                    Lydia has eaten her way through 15+
+                                    countries where she happily takes pictures
+                                    of all animals. Her background is in
+                                    business and financial analysis, with
+                                    personal passion for startups
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 pt-5">
+                        <div class="speaker d-flex flex-row mb-5">
+                            <img
+                                src="images/riley.png"
+                                alt="riley"
+                                class="full-width full-height"
+                                width="80"
+                            />
+                            <div class="details flex-column pl-5">
+                                <h4 class="name">Riley Spicer</h4>
+                                <div class="grey-border"></div>
+                                <p class="description">
+                                    Riley cares about creating community and
+                                    improving the world we live in. They come to
+                                    Microverse with an eclectic background that
+                                    includes attending a coding school then
+                                    working as a software engineer at AWS.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="speaker d-flex flex-row mb-5">
+                            <img
+                                src="images/maria.png"
+                                alt="maria"
+                                class="full-width full-height"
+                                width="80"
+                            />
+                            <div class="details flex-column pl-5">
+                                <h4 class="name">Maria Santos</h4>
+                                <p class="post">
+                                    Career Services at Microverse
+                                </p>
+                                <div class="grey-border"></div>
+                                <p class="description">
+                                    Maria has spent her entire professional
+                                    career working in education in some form or
+                                    another, both as a teacher and as a
+                                    recruiter/sourcing specialist.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="speaker d-flex flex-row mb-5">
+                            <img
+                                src="images/jenn.png"
+                                alt="jenn"
+                                class="full-width full-height"
+                            />
+                            <div class="details flex-column pl-5">
+                                <h4 class="name">Jenn Best</h4>
+                                <p class="post">
+                                    Career Services at Microverse
+                                </p>
+                                <div class="grey-border"></div>
+                                <p class="description">
+                                    Jenn is a career coach passionate about
+                                    helping people change their lives. Her early
+                                    career includes roles in management,
+                                    recruiting, and hiring.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <div class="top-footer container-fluid">
+                    <h4 class="text-light text-center pt-5">Partner</h4>
+                    <div class="red-border m-auto"></div>
+                    <ul
+                        class="brands d-flex flex-row justify-content-center align-items-baseline pt-4"
+                    >
+                        <li class="brand-list px-3">
+                            <img
+                                src="images/mozilla.png"
+                                alt="mozilla"
+                                width="120"
+                            />
+                        </li>
+                        <li class="brand-list px-3">
+                            <img
+                                src="images/google.png"
+                                alt="google"
+                                width="120"
+                            />
+                        </li>
+                        <li class="brand-list px-3">
+                            <img
+                                src="images/naver.png"
+                                alt="naver"
+                                width="120"
+                            />
+                        </li>
+                        <li class="brand-list px-3">
+                            <img
+                                src="images/daumkakao.png"
+                                alt="daumkakao"
+                                width="120"
+                            />
+                        </li>
+                        <li class="brand-list">
+                            <img
+                                src="images/airbnb.png"
+                                alt="airbnb"
+                                width="120"
+                            />
+                        </li>
+                    </ul>
+                </div>
+                <div class="bottom-footer">
+                    <div class="d-flex flex-row pt-5">
+                        <a href="#">
+                            <img
+                                src="images/microverse.png"
+                                alt="microverse"
+                                class="microverse-logo pl-5"
+                                width="300"
+                            />
+                        </a>
+                        <div class="copyright d-flex flex-column">
+                            <p class="copyright-text">
+                                2020 Microserve all right reserved
+                            </p>
+                            <p class="copyright-intro">
+                                The copyright notice, although not mandatory, is
+                                still a must-have for any website.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
         </main>
     </body>
 </html>
