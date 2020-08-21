@@ -19,8 +19,10 @@
         <title>About</title>
     </head>
     <body>
-        <header class="first-header container-fluid">
-            <nav class="first-nav d-flex flex-row justify-content-end">
+        <header
+            class="first-header container-fluid d-none d-md-flex justify-content-end"
+        >
+            <nav class="first-nav d-md-flex flex-row justify-content-end">
                 <ul class="list d-flex flex-row">
                     <li class="items">
                         <i class="fab fa-facebook-f px-2"></i>
@@ -34,30 +36,158 @@
                 </ul>
             </nav>
         </header>
-        <header class="second-header">
-            <nav class="second-nav d-flex flex-row justify-content-between">
-                <a href="#">
+        <header class="second-header d-none d-md-flex justify-content-around">
+            <nav class="second-nav d-md-flex flex-row justify-content-around">
+                <a href="#" class="d-flex justify-content-center">
                     <img
                         src="images/microverse.png"
                         alt="microverse"
                         class="microverse-logo pt-3"
-                        width="330"
+                        width="200"
+                        height="60"
                     />
                 </a>
-                <ul class="links d-flex flex-row justify-content-end pt-4">
-                    <li class="link-list1 px-5">
+                <ul class="links d-flex flex-row pt-4">
+                    <li class="link-list1 px-4">
                         <a href="about.html">About</a>
                     </li>
-                    <li class="link-list px-5"><a href="#">Curriculum</a></li>
-                    <li class="link-list px-5"><a href="#">Join</a></li>
-                    <li class="link-list px-5">
+                    <li class="link-list px-4"><a href="#">Curriculum</a></li>
+                    <li class="link-list px-4"><a href="#">Join</a></li>
+                    <li class="link-list px-4">
                         <a href="tickets.html">Tickets</a>
                     </li>
-                    <li class="link-list2 px-4">
+                    <li class="link-list2">
                         <a href="#" class="p-2">Apply Now</a>
                     </li>
                 </ul>
             </nav>
         </header>
+        <main class="container-fluid">
+            <section>
+                <div class="top-page">
+                    <p class="home d-none d-md-block text-right px-5 py-3">
+                        <i class="fas fa-home"></i>
+                        > About > Tickets
+                    </p>
+                    <i class="las la-bars la-4x ml-4 mb-5 d-md-none"></i>
+                    <h2
+                        class="h2 font-weight-bold text-center d-md-none micronauts"
+                    >
+                        Hello! Micronauts
+                    </h2>
+                    <h1
+                        class="font-weight-bold heading text-center display-5 display-md-2"
+                    >
+                        MICROVERSE, ACCELLERATES<br />YOUR GLOBAL<br />CAREER
+                    </h1>
+                    <div class="red-border m-auto"></div>
+                    <p
+                        class="intro text-center w-75 p-content mx-auto bg-light py-2 mt-3 p-4"
+                    >
+                        Learn through pair programming, mentor support, career
+                        coach guidance, and code reviews. Connect with global
+                        and remote jobs after gaining experience working on a
+                        distributed team. Your Microverse experience centers
+                        around accountability, support, and community as you
+                        learn in an environment that mimics a real-world remote
+                        workspace. In addition to your coding partner and
+                        stand-up team, you’ll be assigned a mentor, student
+                        success members, and a career coach to support you in
+                        your journey at Microverse.
+                    </p>
+                    <p class="ads text-center mx-auto content mt-4">
+                        Please contact us Per Email for any further questions
+                        about Microverse!<br />
+                        <span class="font-weight-bold email"
+                            >microverse@gmail.com</span
+                        >
+                    </p>
+                </div>
+            </section>
+            <section>
+                <div class="middle-page mx-auto mt-5">
+                    <h4 class="middle-title text-center font-weight-bold">
+                        Creative Microverse Logo
+                    </h4>
+                    <div class="red-border m-auto"></div>
+                    <p class="text-center w-50 content pt-3 mx-auto">
+                        The Microverse logo was decided through the logo
+                        competition from 8, June to 7, July. After online public
+                        voting and Selection Committee's voting process, the
+                        logo from Ariel Camus won the prize. After consultation
+                        with Mr.Camus we optimized the prize-winning logo for
+                        Microverse as follows:
+                    </p>
+                    <div
+                        class="d-flex justify-content-center border py-4 logo-box mb-5 mx-auto w-50"
+                    >
+                        <img
+                            src="images/microverse.png"
+                            alt="microverse"
+                            width="300"
+                        />
+                    </div>
+                    <div class="bottom-line"></div>
+                </div>
+            </section>
+            <section>
+                <div class="bottom-page mx-auto mt-5">
+                    <h4 class="middle-title text-center font-weight-bold">
+                        See some actual Microverse Students
+                    </h4>
+                    <div class="red-border m-auto"></div>
+                    <p class="small-p text-center w-50 pt-3 mx-auto">
+                        Take a look at two students from Microverse
+                    </p>
+                    <div
+                        class="d-md-flex justify-content-center mt-4 microverse-students"
+                    >
+                        <div
+                            class="d-flex flex-column justify-content-center mx-auto mx-md-0 mb-2 mb-md-0 brazil"
+                        >
+                            <h3 class="text-center text-light font-weight-bold">
+                                2020
+                            </h3>
+                            <p class="text-center text-light font-weight-bold">
+                                Microverse student from Brazil
+                            </p>
+                        </div>
+                        <div
+                            class="d-flex flex-column justify-content-center mx-auto mx-md-0 ml-md-2 uganda"
+                        >
+                            <h3 class="text-center text-light font-weight-bold">
+                                2020
+                            </h3>
+                            <p class="text-center text-light font-weight-bold">
+                                Microverse student from Uganda
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <div class="bottom-footer h-100">
+                    <div class="d-flex flex-row pt-4">
+                        <a href="#">
+                            <img
+                                src="images/microverse.png"
+                                alt="microverse"
+                                class="microverse-logo pl-5"
+                                width="300"
+                            />
+                        </a>
+                        <div class="copyright d-flex flex-column">
+                            <p class="copyright-text">
+                                2020 Microserve all rights reserved
+                            </p>
+                            <p class="copyright-intro">
+                                The copyright notice, although not mandatory, is
+                                still a must-have for any website.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </main>
     </body>
 </html>

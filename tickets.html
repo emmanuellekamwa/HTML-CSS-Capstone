@@ -19,8 +19,10 @@
         <title>Tickets</title>
     </head>
     <body>
-        <header class="first-header container-fluid">
-            <nav class="first-nav d-flex flex-row justify-content-end">
+        <header
+            class="first-header container-fluid d-none d-md-flex justify-content-end"
+        >
+            <nav class="first-nav d-md-flex flex-row justify-content-end">
                 <ul class="list d-flex flex-row">
                     <li class="items">
                         <i class="fab fa-facebook-f px-2"></i>
@@ -34,26 +36,27 @@
                 </ul>
             </nav>
         </header>
-        <header class="second-header">
-            <nav class="second-nav d-flex flex-row justify-content-between">
-                <a href="#">
+        <header class="second-header d-none d-md-flex justify-content-around">
+            <nav class="second-nav d-md-flex flex-row justify-content-around">
+                <a href="#" class="d-flex justify-content-center">
                     <img
                         src="images/microverse.png"
                         alt="microverse"
                         class="microverse-logo pt-3"
-                        width="330"
+                        width="200"
+                        height="60"
                     />
                 </a>
-                <ul class="links d-flex flex-row justify-content-end pt-4">
-                    <li class="link-list1 px-5">
+                <ul class="links d-flex flex-row pt-4">
+                    <li class="link-list1 px-4">
                         <a href="about.html">About</a>
                     </li>
-                    <li class="link-list px-5"><a href="#">Curriculum</a></li>
-                    <li class="link-list px-5"><a href="#">Join</a></li>
-                    <li class="link-list px-5">
+                    <li class="link-list px-4"><a href="#">Curriculum</a></li>
+                    <li class="link-list px-4"><a href="#">Join</a></li>
+                    <li class="link-list px-4">
                         <a href="tickets.html">Tickets</a>
                     </li>
-                    <li class="link-list2 px-4">
+                    <li class="link-list2">
                         <a href="#" class="p-2">Apply Now</a>
                     </li>
                 </ul>
