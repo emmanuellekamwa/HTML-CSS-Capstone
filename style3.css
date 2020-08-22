@@ -39,3 +39,96 @@
     color: #ec5242;
     border: 4px solid #ec5242;
 }
+
+.grey-part {
+    background-color: #d3d3d3;
+    height: 34rem;
+}
+
+.red-border {
+    border-bottom: 1px solid #ec5242;
+    width: 3em;
+}
+
+.step,
+.price {
+    color: #ec5242;
+}
+
+.head {
+    width: 40%;
+    border-radius: 25px;
+    margin-left: 390px;
+}
+
+.cross-line {
+    text-decoration: line-through;
+}
+
+.ticket,
+.date,
+.normal,
+.students,
+.day-1,
+.day-2,
+.prize,
+.prizes,
+.friday {
+    border-right: 1px solid #dee2e6;
+}
+
+.zero,
+.days,
+.partner {
+    border-left: 1px solid #dee2e6;
+}
+
+.p-border {
+    border: 0.4rem solid #ec5242;
+    width: 80%;
+}
+
+.diamond {
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
+    border-bottom-color: red;
+    top: -102px;
+    left: 45%;
+}
+
+.diamond:after {
+    content: "";
+    position: absolute;
+    left: -50px;
+    top: 50px;
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
+    border-top-color: red;
+}
+
+.la-chevron-down {
+    color: #fff;
+    top: 30px;
+    right: 6px;
+}
+
+.menu {
+    width: 70%;
+}
+
+.card-head {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+.select input {
+    width: 10%;
+    height: 45px;
+}
+
+.select-btn {
+    background-color: #ec5242;
+    margin-top: 50px;
+}
