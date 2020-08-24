@@ -6,6 +6,17 @@
     padding: 0;
 }
 
+.heading,
+.micronauts,
+.intro,
+.ads,
+.email,
+.texts,
+.copyright-text,
+.copyright-intro {
+    font-family: "cocogoose", sans-serif;
+}
+
 .first-header {
     background-color: #272a31;
     height: 30px;

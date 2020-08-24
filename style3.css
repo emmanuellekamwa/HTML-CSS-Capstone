@@ -132,3 +132,13 @@
     background-color: #ec5242;
     margin-top: 50px;
 }
+
+@media only screen and (max-width: 767px) {
+    .head {
+        margin-left: 230px;
+    }
+
+    .grey-part {
+        height: 55em;
+    }
+}

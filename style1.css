@@ -50,23 +50,27 @@
 }
 
 .micronauts,
-.heading {
+.heading,
+.fa-chevron-down {
     color: #ec5242;
 }
 
 .micronauts {
     padding-left: 150px;
+    font-family: "cocogoose", sans-serif;
 }
 
 .heading {
     padding-left: 150px;
     font-size: 4rem;
+    font-family: "cocogoose", sans-serif;
 }
 
 .small-text {
     padding-left: 160px;
     color: #272a31;
     width: 50%;
+    font-family: "cocogoose", sans-serif;
 }
 
 .red-border {
@@ -89,8 +93,17 @@
     background-color: rgba(211, 211, 211, 0.1);
 }
 
-.button input,
-.more input {
+.program p,
+.name {
+    font-family: "cocogoose", sans-serif;
+}
+
+.underline-text {
+    font-family: "cocogoose", sans-serif;
+    text-decoration: underline;
+}
+
+.button input {
     width: 50%;
     height: 65px;
 }
@@ -100,8 +113,8 @@
     margin-top: 50px;
 }
 
-.more-btn {
-    height: 65px;
+.more input {
+    width: 50%;
 }
 
 .title,
@@ -125,6 +138,11 @@
     height: 100%;
 }
 
+.post,
+.description {
+    font-family: "Lato", sans-serif;
+}
+
 .feature,
 .name {
     color: #272a31;
@@ -146,6 +164,11 @@
 
 .copyright {
     padding-left: 100px;
+}
+
+.copyright-text,
+.copyright-intro {
+    font-family: "cocogoose", sans-serif;
 }
 
 @media only screen and (max-width: 767px) {
