@@ -1,72 +1,72 @@
 * {
-    box-sizing: border-box;
-    list-style-type: none;
-    border: none;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  border: none;
+  margin: 0;
+  padding: 0;
 }
 
 .first-header {
-    background-color: #272a31;
-    height: 30px;
+  background-color: #272a31;
+  height: 30px;
 }
 
 .list {
-    padding-right: 160px;
+  padding-right: 160px;
 }
 
 .items {
-    color: #ffff;
+  color: #ffff;
 }
 
 .second-header {
-    background-color: #fff;
-    height: 65px;
+  background-color: #fff;
+  height: 65px;
 }
 
 .link-list1 a {
-    text-decoration: none;
-    color: #ec5242;
+  text-decoration: none;
+  color: #ec5242;
 }
 
 .link-list a {
-    text-decoration: none;
-    color: #272a31;
+  text-decoration: none;
+  color: #272a31;
 }
 
 .link-list2 a {
-    text-decoration: none;
-    color: #ec5242;
-    border: 4px solid #ec5242;
+  text-decoration: none;
+  color: #ec5242;
+  border: 4px solid #ec5242;
 }
 
 .grey-part {
-    background-color: #d3d3d3;
-    height: 34rem;
+  background-color: #d3d3d3;
+  height: 34rem;
 }
 
 .tickets-box {
-    background-color: rgba(238, 238, 238);
+  background-color: rgba(238, 238, 238);
 }
 
 .red-border {
-    border-bottom: 1px solid #ec5242;
-    width: 3em;
+  border-bottom: 1px solid #ec5242;
+  width: 3em;
 }
 
 .step,
 .price {
-    color: #ec5242;
+  color: #ec5242;
 }
 
 .head {
-    width: 40%;
-    border-radius: 25px;
-    margin-left: 390px;
+  width: 40%;
+  border-radius: 25px;
+  margin-left: 390px;
 }
 
 .cross-line {
-    text-decoration: line-through;
+  text-decoration: line-through;
 }
 
 .ticket,
@@ -78,77 +78,81 @@
 .prize,
 .prizes,
 .friday {
-    border-right: 1px solid #dee2e6;
+  border-right: 1px solid #dee2e6;
 }
 
 .zero,
 .days,
 .partner {
-    border-left: 1px solid #dee2e6;
+  border-left: 1px solid #dee2e6;
 }
 
 .p-border {
-    border: 0.4rem solid #ec5242;
-    width: 80%;
+  border: 0.4rem solid #ec5242;
+  width: 80%;
 }
 
 .diamond {
-    width: 0;
-    height: 0;
-    border: 50px solid transparent;
-    border-bottom-color: red;
-    top: -102px;
-    left: 45%;
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-bottom-color: red;
+  top: -102px;
+  left: 45%;
 }
 
 .diamond::after {
-    content: "";
-    position: absolute;
-    left: -50px;
-    top: 50px;
-    width: 0;
-    height: 0;
-    border: 50px solid transparent;
-    border-top-color: red;
+  content: "";
+  position: absolute;
+  left: -50px;
+  top: 50px;
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-top-color: red;
 }
 
 .la-chevron-down {
-    color: #fff;
-    top: 30px;
-    right: 6px;
+  color: #fff;
+  top: 30px;
+  right: 6px;
 }
 
 .menu {
-    width: 70%;
+  width: 70%;
 }
 
 .card-head {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
-    background-color: rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  background-color: rgba(0, 0, 0, 0.03);
 }
 
 .select input {
-    width: 10%;
-    height: 45px;
+  width: 10%;
+  height: 45px;
+}
+
+.bottom-footer {
+  background-color: #d3d3d3;
 }
 
 .select-btn {
-    background-color: #ec5242;
-    margin-top: 50px;
+  background-color: #ec5242;
+  margin-top: 50px;
 }
 
 @media only screen and (max-width: 768px) {
-    .head {
-        margin-left: 230px;
-    }
+  .head {
+    margin-left: 230px;
+  }
 
-    .grey-part {
-        height: 40rem;
-    }
+  .grey-part {
+    height: 40rem;
+  }
 }
 
 @media only screen and (max-width: 767px) {
-    .grey-part {
-        height: 55rem;
-    }
+  .grey-part {
+    height: 55rem;
+  }
 }
